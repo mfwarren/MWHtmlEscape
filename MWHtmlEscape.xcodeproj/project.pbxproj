@@ -1,0 +1,372 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C1767839194AB88000C98CBF /* MWHtmlEscape.h in Headers */ = {isa = PBXBuildFile; fileRef = C1767838194AB88000C98CBF /* MWHtmlEscape.h */; };
+		C176783B194AB88000C98CBF /* MWHtmlEscape.m in Sources */ = {isa = PBXBuildFile; fileRef = C176783A194AB88000C98CBF /* MWHtmlEscape.m */; };
+		C1767841194AB88000C98CBF /* libMWHtmlEscape.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C1767835194AB88000C98CBF /* libMWHtmlEscape.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C1767842194AB88000C98CBF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C176782D194AB88000C98CBF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1767834194AB88000C98CBF;
+			remoteInfo = MWHtmlEscape;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C1767835194AB88000C98CBF /* libMWHtmlEscape.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMWHtmlEscape.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1767838194AB88000C98CBF /* MWHtmlEscape.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MWHtmlEscape.h; sourceTree = "<group>"; };
+		C176783A194AB88000C98CBF /* MWHtmlEscape.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MWHtmlEscape.m; sourceTree = "<group>"; };
+		C1767840194AB88000C98CBF /* MWHtmlEscapeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MWHtmlEscapeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1767846194AB88000C98CBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C1767832194AB88000C98CBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C176783D194AB88000C98CBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1767841194AB88000C98CBF /* libMWHtmlEscape.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C176782C194AB88000C98CBF = {
+			isa = PBXGroup;
+			children = (
+				C1767837194AB88000C98CBF /* MWHtmlEscape */,
+				C1767844194AB88000C98CBF /* MWHtmlEscapeTests */,
+				C1767836194AB88000C98CBF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C1767836194AB88000C98CBF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1767835194AB88000C98CBF /* libMWHtmlEscape.a */,
+				C1767840194AB88000C98CBF /* MWHtmlEscapeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1767837194AB88000C98CBF /* MWHtmlEscape */ = {
+			isa = PBXGroup;
+			children = (
+				C1767838194AB88000C98CBF /* MWHtmlEscape.h */,
+				C176783A194AB88000C98CBF /* MWHtmlEscape.m */,
+			);
+			path = MWHtmlEscape;
+			sourceTree = "<group>";
+		};
+		C1767844194AB88000C98CBF /* MWHtmlEscapeTests */ = {
+			isa = PBXGroup;
+			children = (
+				C1767845194AB88000C98CBF /* Supporting Files */,
+			);
+			path = MWHtmlEscapeTests;
+			sourceTree = "<group>";
+		};
+		C1767845194AB88000C98CBF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C1767846194AB88000C98CBF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C1767833194AB88000C98CBF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1767839194AB88000C98CBF /* MWHtmlEscape.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C1767834194AB88000C98CBF /* MWHtmlEscape */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1767849194AB88000C98CBF /* Build configuration list for PBXNativeTarget "MWHtmlEscape" */;
+			buildPhases = (
+				C1767831194AB88000C98CBF /* Sources */,
+				C1767832194AB88000C98CBF /* Frameworks */,
+				C1767833194AB88000C98CBF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MWHtmlEscape;
+			productName = MWHtmlEscape;
+			productReference = C1767835194AB88000C98CBF /* libMWHtmlEscape.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C176783F194AB88000C98CBF /* MWHtmlEscapeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C176784C194AB88000C98CBF /* Build configuration list for PBXNativeTarget "MWHtmlEscapeTests" */;
+			buildPhases = (
+				C176783C194AB88000C98CBF /* Sources */,
+				C176783D194AB88000C98CBF /* Frameworks */,
+				C176783E194AB88000C98CBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1767843194AB88000C98CBF /* PBXTargetDependency */,
+			);
+			name = MWHtmlEscapeTests;
+			productName = MWHtmlEscapeTests;
+			productReference = C1767840194AB88000C98CBF /* MWHtmlEscapeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C176782D194AB88000C98CBF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Matt Warren";
+				TargetAttributes = {
+					C1767834194AB88000C98CBF = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					C176783F194AB88000C98CBF = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = C1767834194AB88000C98CBF;
+					};
+				};
+			};
+			buildConfigurationList = C1767830194AB88000C98CBF /* Build configuration list for PBXProject "MWHtmlEscape" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C176782C194AB88000C98CBF;
+			productRefGroup = C1767836194AB88000C98CBF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C1767834194AB88000C98CBF /* MWHtmlEscape */,
+				C176783F194AB88000C98CBF /* MWHtmlEscapeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C176783E194AB88000C98CBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C1767831194AB88000C98CBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C176783B194AB88000C98CBF /* MWHtmlEscape.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C176783C194AB88000C98CBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C1767843194AB88000C98CBF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1767834194AB88000C98CBF /* MWHtmlEscape */;
+			targetProxy = C1767842194AB88000C98CBF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C1767847194AB88000C98CBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C1767848194AB88000C98CBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C176784A194AB88000C98CBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C176784B194AB88000C98CBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C176784D194AB88000C98CBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MWHtmlEscapeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C176784E194AB88000C98CBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MWHtmlEscapeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C1767830194AB88000C98CBF /* Build configuration list for PBXProject "MWHtmlEscape" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1767847194AB88000C98CBF /* Debug */,
+				C1767848194AB88000C98CBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1767849194AB88000C98CBF /* Build configuration list for PBXNativeTarget "MWHtmlEscape" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C176784A194AB88000C98CBF /* Debug */,
+				C176784B194AB88000C98CBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C176784C194AB88000C98CBF /* Build configuration list for PBXNativeTarget "MWHtmlEscapeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C176784D194AB88000C98CBF /* Debug */,
+				C176784E194AB88000C98CBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C176782D194AB88000C98CBF /* Project object */;
+}
