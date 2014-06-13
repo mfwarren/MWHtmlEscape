@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C1767839194AB88000C98CBF /* MWHtmlEscape.h in Headers */ = {isa = PBXBuildFile; fileRef = C1767838194AB88000C98CBF /* MWHtmlEscape.h */; };
-		C176783B194AB88000C98CBF /* MWHtmlEscape.m in Sources */ = {isa = PBXBuildFile; fileRef = C176783A194AB88000C98CBF /* MWHtmlEscape.m */; };
 		C1767841194AB88000C98CBF /* libMWHtmlEscape.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C1767835194AB88000C98CBF /* libMWHtmlEscape.a */; };
+		C1767850194AB8E600C98CBF /* MWHtmlEscape.swift in Sources */ = {isa = PBXBuildFile; fileRef = C176784F194AB8E600C98CBF /* MWHtmlEscape.swift */; };
+		C1767851194AB8E600C98CBF /* MWHtmlEscape.swift in Sources */ = {isa = PBXBuildFile; fileRef = C176784F194AB8E600C98CBF /* MWHtmlEscape.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,10 +24,9 @@
 
 /* Begin PBXFileReference section */
 		C1767835194AB88000C98CBF /* libMWHtmlEscape.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMWHtmlEscape.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		C1767838194AB88000C98CBF /* MWHtmlEscape.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MWHtmlEscape.h; sourceTree = "<group>"; };
-		C176783A194AB88000C98CBF /* MWHtmlEscape.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MWHtmlEscape.m; sourceTree = "<group>"; };
 		C1767840194AB88000C98CBF /* MWHtmlEscapeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MWHtmlEscapeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1767846194AB88000C98CBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C176784F194AB8E600C98CBF /* MWHtmlEscape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MWHtmlEscape.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,8 +69,7 @@
 		C1767837194AB88000C98CBF /* MWHtmlEscape */ = {
 			isa = PBXGroup;
 			children = (
-				C1767838194AB88000C98CBF /* MWHtmlEscape.h */,
-				C176783A194AB88000C98CBF /* MWHtmlEscape.m */,
+				C176784F194AB8E600C98CBF /* MWHtmlEscape.swift */,
 			);
 			path = MWHtmlEscape;
 			sourceTree = "<group>";
@@ -99,7 +97,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1767839194AB88000C98CBF /* MWHtmlEscape.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,7 +189,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C176783B194AB88000C98CBF /* MWHtmlEscape.m in Sources */,
+				C1767850194AB8E600C98CBF /* MWHtmlEscape.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,6 +197,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1767851194AB8E600C98CBF /* MWHtmlEscape.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,15 +289,20 @@
 		C176784A194AB88000C98CBF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				EXECUTABLE_PREFIX = lib;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		C176784B194AB88000C98CBF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				EXECUTABLE_PREFIX = lib;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -307,6 +310,7 @@
 		C176784D194AB88000C98CBF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
@@ -320,12 +324,14 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				METAL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		C176784E194AB88000C98CBF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
