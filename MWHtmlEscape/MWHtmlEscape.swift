@@ -10,9 +10,9 @@ import Foundation
 
 func escape(html: String) -> String{
     var result = html.stringByReplacingOccurrencesOfString("&", withString: "&amp;", options: nil, range: nil)
-    result = html.stringByReplacingOccurrencesOfString("\"", withString: "&quot;", options: nil, range: nil)
-    result = html.stringByReplacingOccurrencesOfString("'", withString: "&#39;", options: nil, range: nil)
-    result = html.stringByReplacingOccurrencesOfString("<", withString: "&lt;", options: nil, range: nil)
-    result = html.stringByReplacingOccurrencesOfString(">", withString: "&gt;", options: nil, range: nil)
+    result = result.stringByReplacingOccurrencesOfString("\"", withString: "&quot;", options: nil, range: nil)
+    result = result.stringByReplacingOccurrencesOfString("'", withString: "&#39;", options: nil, range: nil)
+    result = result.stringByReplacingOccurrencesOfString("<", withString: "&lt;", options: nil, range: nil)
+    result = result.stringByReplacingOccurrencesOfString(">", withString: "&gt;", options: nil, range: nil)
     return result
 }
